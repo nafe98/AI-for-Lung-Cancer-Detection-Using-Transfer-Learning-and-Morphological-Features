@@ -1,0 +1,22 @@
+In general the paper is interesting however several aspects need additional attention:
+
+
+a) Precision results should agree with confusion matrices. This is not always the case as we have 100% success in the confusion matrix and under 100% precision in some cases.
+
+
+b) Why is the number of cases in the DL confusion matrix different?
+
+
+c) Why vgg16 when there are better and lighter alternatives?
+
+
+d) Probably there is no need to include all proposed ML alternatives
+
+
+e) Does any of the compared works use the same dataset?
+
+
+f) Is data augmentation used? Otherwise the number of cases is too small.
+
+
+g) Some issues should be revised. E.g. the first phrase "Lung cancer is generally ... No need for generally at least for the cases in the dataset.
